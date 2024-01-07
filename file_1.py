@@ -1,8 +1,12 @@
-def add(x,y):
+def add(x,y,z):
     # added z value from web
-    return x+y 
+    return x+y*z 
 
-add(2,3)
+def add(x,y,z):
+
+    return x+y*z 
+
+add(2,3,10)
 
 def subtract(x,y):
     return x-y
